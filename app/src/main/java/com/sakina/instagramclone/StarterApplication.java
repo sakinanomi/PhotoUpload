@@ -18,9 +18,9 @@ public class StarterApplication extends Application
 
         //initializing the connection
         Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-                .applicationId("myappID")
-                .clientKey("aD4u9oWJ93f")
-                .server("http://52.66.6.56/parse/")
+                .applicationId("")
+                .clientKey("")
+                .server("")
                 .build()
 
 

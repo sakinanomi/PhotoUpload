@@ -122,6 +122,7 @@ public class LoggedIn extends AppCompatActivity {
                 ParseFile file=new ParseFile("image.png",byteArray);
                 ParseObject object=new ParseObject("Image");
 
+                object.put("Likes",0);
                 object.put("image",file);
                 object.put("username",ParseUser.getCurrentUser().getUsername());
 
